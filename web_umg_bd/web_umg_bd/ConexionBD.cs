@@ -8,7 +8,7 @@ namespace web_umg_bd
 {
     public class ConexionBD
     {
-        private string contenido = "server=localhost; database=db_empresa; user=root; password=";
+        private string contenido = "server=localhost; database=db_empresa; user=usr_empresa; password=Empres@123";
         public MySqlConnection conectar = new MySqlConnection();
         public MySqlDataAdapter adaptador = new MySqlDataAdapter();
 
